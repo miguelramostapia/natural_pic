@@ -11,13 +11,13 @@
   --text:#403f37;
   --container: #bfbfbf;
 }
- body {
+body {
   margin: 0;
-  background-color: var(--white);
+  background-color: var(--text);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-} 
-/*
-.App {
+}
+
+/* .App {
   font-family: "Maitree", serif;
   font-size: large;
   text-align: center;
@@ -29,7 +29,7 @@ h1 {
 }
 
 
-/* Navbar */
+/* Navbar *
 a {
   text-decoration: none;
   color: white;
@@ -41,7 +41,7 @@ a {
   color: white;
 }
 
-/* gallery */
+/* gallery *
 .gallery {
   display: grid;
   gap: 10px;
@@ -79,4 +79,4 @@ a {
 
 .p-3 {
   padding: 30px;
-} 
+} */

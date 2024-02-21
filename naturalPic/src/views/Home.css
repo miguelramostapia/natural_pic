@@ -1,0 +1,98 @@
+.heart{
+    color:red;
+    cursor: pointer;
+}
+.fotos-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+.fotos{
+    background-color: var(--card-background);
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 300px;
+    padding: 20px 16px;
+    border-radius: 12px;
+}
+.fotos_img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    border-radius: 12px;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+@supports(object-fit: cover){
+    .fotos_img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+.fotos_name{
+    text-align: justify;
+    font-size: 15px;
+    color: blue;
+}
+.fotos_desc{
+    text-align: center;
+    font-size: 15px;
+    color: var(--white);
+}
+.heartbutton{
+    border: none;
+    border-radius: 50%;
+    color: var(--white);
+}
+.logoHeart {
+    border-radius: 12px;
+    border: none;
+    display: block;
+    margin-inline-start: auto;    
+    height: 20px;
+    will-change: filter;
+    transition: filter 300ms;
+    cursor: pointer;
+    color: red;
+  }
+.logoHeart:hover {
+filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.heart-button {
+    size: 20px;
+    border: none;
+    background: none;
+    display: inline-block;
+    text-align:center;
+    margin-left: 5px;
+}
+
+.heart-button.active .heart{
+  fill: red;
+}
+.miboton{
+    border-radius: 12px;
+    border: none;
+    display: block;
+    margin-inline-start: auto;    
+    height: 20px;
+    will-change: filter;
+    transition: filter 300ms;
+    cursor: pointer;
+    color: red;
+}
+
+.heart-container{
+    justify-content: left;
+}
+.gap-container{
+    width: 100px;
+    height: 160px;
+}

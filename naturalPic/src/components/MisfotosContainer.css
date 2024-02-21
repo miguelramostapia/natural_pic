@@ -1,0 +1,30 @@
+.fotos_section{
+    background-color: var(--container);
+    width: 510px;
+    margin: 30px auto;
+    min-height: 400px;
+    padding: 24px;
+    border-radius: 16px;
+}
+.fotos_titulo{
+    margin-bottom: 16px;
+    text-align: center;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fotos_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+@media (min-width:760px){
+    .fotos_section{
+        width: 740px;
+    }
+}
+
+@media (min-width:990px){
+    .fotos_section{
+        width: 970px;
+    }
+}

@@ -1,0 +1,23 @@
+.fotos{
+    background-color: var(--card-background);
+    width: 220px;
+    padding: 20px 16px;
+    border-radius: 12px;
+}
+.fotos_img{
+    border-radius: 12px;
+    display: block;
+    margin: auto;
+}
+.fotos_name{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    color: var(--text);
+}
+.fotos_desc{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 14px;
+    color: var(--text);
+}
